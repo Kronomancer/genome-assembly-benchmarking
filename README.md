@@ -24,16 +24,16 @@ The workflow is designed to run in Google Colab using micromamba for environment
 - NCBI Datasets CLI
 
 ## Directory Structure
+```text
 BioinformaticsProject/
 ├── Reads/
 │   ├── Honeybee/
-│   │   ├── new_reads/
 │   │   ├── result_spades/
 │   │   └── result_megahit/
 │   └── CarpenterBee/
-│       ├── new_reads/
 │       ├── result_spades/
 │       └── megahit_carpenterbee/
+```
 
 ## Pipeline Steps
 1. Environment setup with micromamba
